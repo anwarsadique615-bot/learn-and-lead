@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171916">
+  <meta name="description" content="Learn & Lead helps UAE businesses move forward with e-invoicing readiness, ERP and POS solutions, and practical professional training.">
+  <title>Learn & Lead — A smarter way forward</title>
+  <link rel="icon" href="assets/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="assets/gsap.min.js"></script><script defer src="assets/ScrollTrigger.min.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+  <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="up-right" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+  <symbol id="invoice" viewBox="0 0 32 32"><path d="M8 3h16v26l-4-2-4 2-4-2-4 2V3ZM12 10h8M12 15h8M12 20h4"/><path d="m22 17 4 4 5-6"/></symbol>
+  <symbol id="systems" viewBox="0 0 32 32"><rect x="3" y="4" width="26" height="19" rx="2"/><path d="M11 29h10M16 23v6M3 18h26M9 13v-3M16 13V7M23 13v-2"/></symbol>
+  <symbol id="learn" viewBox="0 0 32 32"><path d="m2 10 14-7 14 7-14 7L2 10ZM7 13v10c5 4 13 4 18 0V13M29 11v12"/></symbol>
+  <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+  <symbol id="whatsapp" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-12 7L3 20l1.5-5A8 8 0 1 1 20 11.5Z"/><path d="M8 7c-2 3 3 8 6 8l2-2-3-1-1 1-2-2 1-1-1-3H8Z"/></symbol>
+</defs></svg>
+<header class="header">
+  <a href="#home" class="brand" aria-label="Learn & Lead home"><img src="assets/logo.jpeg" alt="" width="44" height="44"><span>LEARN <span class="amp">&</span> LEAD<small>TRAINING · SOLUTIONS · EXCELLENCE</small></span></a>
+  <nav class="nav" id="navigation" aria-label="Main navigation"><a class="active" href="#home">Home</a><a href="#services">Solutions</a><a href="#training">Training</a><a href="#about">About us</a><a href="#contact">Contact</a></nav>
+  <a class="header-cta" href="#contact">Let’s talk <svg><use href="#up-right"/></svg></a>
+  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+</header>
+<main id="main">
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="hero-photo" role="img" aria-label="Dubai skyline looking toward the future"></div><div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-content wrap">
+      <div class="eyebrow hero-enter"><i></i> YOUR NEXT CHAPTER STARTS HERE</div>
+      <h1 id="hero-title"><span class="title-line">Smarter business.</span><span class="title-line">Stronger people.</span><span class="title-line serif">Greater possibilities.</span></h1>
+      <p class="hero-enter">The right technology. The confidence to use it.<br>Digital solutions and practical training that help<br class="desktop-br"> UAE businesses move forward.</p>
+      <div class="hero-actions hero-enter"><a class="button light" href="#services">Explore our solutions <svg><use href="#up-right"/></svg></a><a class="text-link" href="https://wa.me/971561524950" target="_blank" rel="noopener"><svg><use href="#whatsapp"/></svg> Talk to our team</a></div>
+      <div class="hero-note"><span class="coordinate">24.4539° N &nbsp; 54.3773° E</span><span>ROOTED IN THE UAE.<br>FOCUSED ON YOUR FUTURE.</span></div>
+      <a class="scroll-cue" href="#services"><span>SCROLL TO DISCOVER</span><span class="circle">↓</span></a>
+      <div class="photo-caption"><span class="tiny-plus">+</span> A NEW PERSPECTIVE<br>ON WHAT’S POSSIBLE.</div>
+    </div>
+    <div class="hero-bottom wrap"><span>LOCAL UNDERSTANDING. LASTING IMPACT.</span><div><span>Technology</span><i>✳</i><span>Knowledge</span><i>✳</i><span>Growth</span></div></div>
+  </section>
+
+  <section class="solutions section wrap" id="services" aria-labelledby="solutions-title">
+    <div class="section-top reveal"><span class="eyebrow dark"><i></i> 01 / WHAT WE DO</span><span class="section-aside">LESS COMPLEXITY.<br>MORE POSSIBILITY.</span></div>
+    <div class="section-heading reveal"><h2 id="solutions-title">Move your business<br>in the <em>right direction.</em></h2><p>From everyday operations to your next big step, we bring together the systems and skills that make progress possible.</p></div>
+    <div class="service-grid">
+      <article class="service-card reveal"><div class="card-top"><svg class="service-icon"><use href="#invoice"/></svg><span>01</span></div><h3>E-invoicing<br>made simpler.</h3><p>Get your business ready with invoice mapping, ASP coordination, and practical implementation support.</p><div class="tags"><span>READINESS</span><span>COMPLIANCE SUPPORT</span></div><button class="card-link" data-service="invoicing">Explore e-invoicing <svg><use href="#up-right"/></svg></button></article>
+      <article class="service-card reveal"><div class="card-top"><svg class="service-icon"><use href="#systems"/></svg><span>02</span></div><h3>Systems that<br>work together.</h3><p>Connect billing, inventory, and sales with ERP and POS solutions built around your business operations.</p><div class="tags"><span>ERP SOLUTIONS</span><span>RETAIL & RESTAURANT POS</span></div><button class="card-link" data-service="systems">Explore ERP & POS <svg><use href="#up-right"/></svg></button></article>
+      <article class="service-card featured reveal"><div class="card-top"><svg class="service-icon"><use href="#learn"/></svg><span>03</span></div><h3>Knowledge that<br>takes you further.</h3><p>Build real-world confidence with practical training in accounting, compliance, and essential digital skills.</p><div class="tags"><span>PRACTICAL LEARNING</span><span>PROFESSIONAL GROWTH</span></div><a class="card-link" href="#training">Explore our training <svg><use href="#up-right"/></svg></a></article>
+    </div>
+    <div class="service-footnote reveal"><span>One partner. A connected approach.</span><a href="#contact">Find the right solution for your business <svg><use href="#arrow"/></svg></a></div>
+  </section>
+
+  <section class="approach" id="about" aria-labelledby="about-title">
+    <div class="wrap approach-inner"><div class="about-visual reveal"><img src="assets/dubai.jpg" alt="Modern architecture and connected urban infrastructure in the UAE" loading="lazy" width="700" height="850"><div class="visual-frame"></div><span class="image-label">BUILT ON UNDERSTANDING.<br>DRIVEN BY PROGRESS.</span><div class="image-symbol" aria-hidden="true">↗</div></div>
+    <div class="about-copy"><span class="eyebrow reveal"><i></i> 02 / THE LEARN & LEAD APPROACH</span><h2 id="about-title" class="reveal">Technology moves fast.<br>We help you<br><em>move with it.</em></h2><p class="reveal">We’re Learn and Lead Technologies and Training LLC-SPC, a UAE-based company bringing digital solutions and practical learning together.</p><p class="reveal muted">Our purpose is straightforward: help businesses operate efficiently, build stronger digital capability, and grow with confidence.</p><div class="values">
+    <div class="value reveal"><span>01</span><div><h3>Compliance first</h3><p>Guidance grounded in UAE business requirements.</p></div><svg><use href="#check"/></svg></div>
+    <div class="value reveal"><span>02</span><div><h3>Built around your business</h3><p>Solutions shaped by the way you actually work.</p></div><svg><use href="#check"/></svg></div>
+    <div class="value reveal"><span>03</span><div><h3>Support at every step</h3><p>Reliable help before, during, and after implementation.</p></div><svg><use href="#check"/></svg></div></div>
+    <a class="text-link reveal" href="#contact">Meet your next growth partner <svg><use href="#up-right"/></svg></a></div></div>
+  </section>
+
+  <section class="training section wrap" id="training" aria-labelledby="training-title">
+    <div class="section-top reveal"><span class="eyebrow dark"><i></i> 03 / LEARN TODAY. LEAD TOMORROW.</span><span class="section-aside">REAL SKILLS.<br>REAL-WORLD CONFIDENCE.</span></div>
+    <div class="section-heading reveal"><h2 id="training-title">Your next advantage<br>starts with <em>learning.</em></h2><p>Practical, business-focused training that turns knowledge into everyday capability. Find your next step.</p></div>
+    <div class="training-layout reveal"><div class="training-intro"><svg class="large-learn"><use href="#learn"/></svg><span class="eyebrow">KNOWLEDGE IN ACTION</span><h3>Learn it.<br>Apply it.<br><em>Lead with it.</em></h3><p>For professionals building confidence and businesses investing in their people.</p><a href="#contact" class="text-link">Discuss your training needs <svg><use href="#up-right"/></svg></a></div>
+    <div class="course-browser"><div class="course-tabs" role="tablist" aria-label="Training categories"><button class="selected" role="tab" id="tab-all" aria-controls="course-panel" aria-selected="true" data-filter="all">All programs <span>04</span></button><button role="tab" id="tab-accounting" aria-controls="course-panel" aria-selected="false" tabindex="-1" data-filter="accounting">Accounting</button><button role="tab" id="tab-digital" aria-controls="course-panel" aria-selected="false" tabindex="-1" data-filter="digital">Digital skills</button></div>
+    <div class="course-list" id="course-panel" role="tabpanel" aria-labelledby="tab-all">
+      <a class="course" href="#contact" data-category="digital" data-course="Basic computer literacy"><div><span>FOUNDATIONS / DIGITAL SKILLS</span><h3>Basic computer literacy</h3><p>Build confidence with essential everyday computer skills.</p></div><svg><use href="#up-right"/></svg></a>
+      <a class="course" href="#contact" data-category="accounting" data-course="Tally training"><div><span>ACCOUNTING / BUSINESS TOOLS</span><h3>Tally training</h3><p>Develop practical skills for your accounting workflow.</p></div><svg><use href="#up-right"/></svg></a>
+      <a class="course" href="#contact" data-category="accounting" data-course="VAT filing training"><div><span>ACCOUNTING / COMPLIANCE</span><h3>VAT filing training</h3><p>Understand the process and build practical filing knowledge.</p></div><svg><use href="#up-right"/></svg></a>
+      <a class="course" href="#contact" data-category="accounting" data-course="Corporate Tax filing training"><div><span>ACCOUNTING / COMPLIANCE</span><h3>Corporate Tax filing training</h3><p>Strengthen your understanding of business tax filing.</p></div><svg><use href="#up-right"/></svg></a>
+    </div><p class="course-note">Let’s find the right program for your goals. <a href="#contact">Ask about availability ↗</a></p></div></div>
+  </section>
+
+  <section class="process"><div class="wrap"><div class="process-heading reveal"><span class="eyebrow"><i></i> A CLEAR PATH FORWARD</span><h2>Progress starts<br>with a <em>conversation.</em></h2></div><div class="process-grid"><div class="reveal"><span>01 / UNDERSTAND</span><h3>Your business, first.</h3><p>We start with your operations, challenges, and the outcomes you want to achieve.</p></div><div class="reveal"><span>02 / CONNECT</span><h3>The right fit.</h3><p>We bring together the solutions and training that support your next step.</p></div><div class="reveal"><span>03 / MOVE FORWARD</span><h3>Confidence to grow.</h3><p>With practical implementation and dedicated support, you’re ready to put progress into practice.</p></div></div></div></section>
+
+  <section class="contact section wrap" id="contact" aria-labelledby="contact-title"><div class="contact-copy"><span class="eyebrow dark reveal"><i></i> 04 / LET’S BUILD WHAT’S NEXT</span><h2 id="contact-title" class="reveal">Big possibilities.<br><em>One conversation.</em></h2><p class="reveal">Have a challenge to solve or a skill to build?<br>We’d love to hear where you want to go.</p><div class="contact-details reveal"><a href="tel:+971561524950"><span>GIVE US A CALL</span>+971 56 152 4950 <svg><use href="#up-right"/></svg></a><a href="mailto:info@learnandlead.ae"><span>DROP US A LINE</span>info@learnandlead.ae <svg><use href="#up-right"/></svg></a><div><span>FIND US</span>Abu Dhabi, United Arab Emirates</div></div></div>
+    <form class="inquiry-form reveal"><h3>Tell us what you have in mind.</h3><label for="name">Your name<input id="name" name="name" autocomplete="name" placeholder="How should we address you?" maxlength="100" required></label><label for="interest">I’m interested in<select id="interest" name="interest"><option value="General enquiry">Select a solution or training program</option><option>E-invoicing solutions</option><option>ERP & POS systems</option><option>Basic computer literacy</option><option>Tally training</option><option>VAT filing training</option><option>Corporate Tax filing training</option><option>General enquiry</option></select></label><label for="message">A little about your goals<textarea id="message" name="message" rows="3" placeholder="Tell us about your business or training needs…" maxlength="1500" required></textarea></label><button type="submit" class="button dark-button">Continue on WhatsApp <svg><use href="#whatsapp"/></svg></button><p class="form-note">We’ll prepare your message in WhatsApp. You review it before sending.</p></form>
+  </section>
+</main>
+<footer><div class="wrap"><div class="footer-top"><a href="#home" class="brand"><img src="assets/logo.jpeg" alt="" width="44" height="44"><span>LEARN <span class="amp">&</span> LEAD<small>TRAINING · SOLUTIONS · EXCELLENCE</small></span></a><p>Better systems. Stronger skills.<br>A smarter way forward.</p><a class="back-top" href="#home" aria-label="Back to top">↑</a></div><div class="footer-bottom"><span>© 2026 Learn and Lead Technologies and Training LLC-SPC</span><nav aria-label="Footer"><a href="#services">Solutions</a><a href="#training">Training</a><a href="#about">About</a><a href="#contact">Contact</a></nav><span>ABU DHABI, UAE <i class="status-dot"></i></span></div></div></footer>
+<dialog class="service-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close solution details">×</button><span class="eyebrow dark">A SMARTER WAY FORWARD</span><h2 id="dialog-title"></h2><p id="dialog-description"></p><ul id="dialog-list"></ul><a class="button dark-button dialog-enquire" href="#contact">Discuss this solution <svg><use href="#up-right"/></svg></a></dialog>
+<dialog class="message-dialog" aria-labelledby="message-title"><button class="dialog-close" aria-label="Close message preview">×</button><span class="eyebrow dark">YOUR NEXT STEP</span><h2 id="message-title">Ready to connect.</h2><p>Review your message, then open WhatsApp to send it to Learn & Lead.</p><pre id="message-preview"></pre><a id="whatsapp-draft" class="button dark-button" target="_blank" rel="noopener">Open WhatsApp <svg><use href="#up-right"/></svg></a></dialog>
+</body></html>

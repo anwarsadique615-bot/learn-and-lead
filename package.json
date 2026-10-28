@@ -1,0 +1,1 @@
+{"name":"learn-and-lead-rebuild","version":"1.0.0","private":true,"description":"GSAP rebuild of Learn & Lead","scripts":{"start":"node server.cjs","check":"node --check dist/app.js"}}
