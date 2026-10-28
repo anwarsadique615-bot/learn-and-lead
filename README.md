@@ -6,14 +6,18 @@ A responsive rebuild of https://learnandlead.ae/ with a charcoal, ivory, and sag
 
 Use Node.js, then run `npm start` from this folder. Open http://127.0.0.1:4173/.
 
-The production files are in `dist/`. There is no build step or package installation. GSAP 3.14.2 and ScrollTrigger are included locally. The optional DM Sans web font loads from Google Fonts, with an Arial fallback.
+The production files are in `dist/`. No compilation or dependency installation is required. GSAP 3.14.2 and ScrollTrigger are included locally. The optional DM Sans web font loads from Google Fonts, with an Arial fallback.
+
+## Deploy on Vercel
+
+Import this repository into Vercel with the repository root as the Root Directory. The tracked `vercel.json` selects the Other framework preset, skips dependency installation, runs `npm run check` for JavaScript syntax validation, and publishes only `dist/`. No environment variables are required. `server.cjs` is a local preview server; Vercel serves the production files statically.
 
 ## Interactions
 
 - GSAP timeline for the hero entrance, reversible ScrollTrigger reveals, and desktop skyline parallax.
 - Responsive `gsap.matchMedia()` setup respects `prefers-reduced-motion`; contexts revert on page exit and remount on a back-forward cache return.
 - Service detail dialogs, accessible keyboard-operated training filters, mobile navigation, and section-aware navigation.
-- Validated enquiry form generates a WhatsApp message preview. Opening WhatsApp prepares a draft; the visitor sends it. There is no enquiry database or email backend.
+- Validated enquiry form generates a WhatsApp message preview. Opening WhatsApp prepares a draft; the visitor sends it. Submission is disabled until the JavaScript handler is ready, and a direct WhatsApp link remains available if scripting is unavailable. There is no enquiry database or email backend.
 
 ## Content and assets
 

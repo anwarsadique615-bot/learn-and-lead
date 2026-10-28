@@ -70,6 +70,8 @@
     document.querySelector('#whatsapp-draft').href = 'https://wa.me/971561524950?text=' + encodeURIComponent(message);
     openDialog(document.querySelector('.message-dialog'), e.submitter);
   }, { signal });
+  // Keep native submission unavailable until the WhatsApp handler is ready.
+  document.querySelector('.inquiry-form button[type="submit"]').disabled = false;
 
   // Content remains readable if scripts fail or a visitor opts out of motion.
   let media;
